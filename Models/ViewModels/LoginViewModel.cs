@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Doggo.Utils
+namespace Doggo.Models.ViewModels
 {
-    public class ReaderHelpers
+    public class LoginViewModel
     {
+        public string Email { get; set; }
     }
 }
